@@ -1,5 +1,10 @@
 ## 📊 Global Market Power BI Report
 
+_Vista de la Página Resumen_
+
+![ProyectoReporte_page-0002](https://github.com/user-attachments/assets/94d43fd8-5cba-4eca-88d5-9e4e20cda7a7)
+
+
 ### 🏢 Project Background
 
 Este proyecto corresponde a la evaluación final del curso de Inteligencia de Negocios con Power BI. Se centra en el análisis de datos del sector retail de la empresa Global Market. El objetivo fue desarrollar un dashboard visualmente atractivo y funcional para la alta dirección, permitiendo evaluar ventas, desempeño por producto, cliente y vendedor, así como identificar oportunidades de mejora en la estrategia comercial.
