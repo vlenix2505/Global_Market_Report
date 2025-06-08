@@ -49,6 +49,29 @@ _Vista de la Portada_
 
 ## ⚙️ Technical Implementation
 
+Se utilizó **Python** en el entorno de **Google Colab** para el tratamiento y limpieza del archivo **DimProducto**, el cual contenía desorden e inconsistencias en los campos relacionados a productos farmacéuticos. Estas inconsistencias dificultaban su análisis, comparación y clasificación, por lo que se aplicaron procesos de normalización y extracción estructurada.
+
+### 🧪 Procesos aplicados:
+
+- **Estandarización de texto**: Conversión a mayúsculas, eliminación de caracteres especiales (como asteriscos, comas innecesarias) y normalización de espacios.
+- **Unificación de unidades de medida**: Ej. reemplazo de "GR" por "G", estandarización de "SUSP." como "SUSP".
+- **Separación de dosis y unidades**: Extracción de información como `25 MG`, `10 ML`, `1 G`, entre otros, desde descripciones complejas.
+- **Detección de formatos especiales**: Manejo de patrones como `10 CC 22 1.5`, tallas `7 1/2`, o combinaciones con múltiples números y unidades.
+- **Tratamiento de excepciones**: Inclusión de listas de productos con reglas personalizadas para evitar errores de interpretación (ej. `MANZATIN-E INFANTIL`, `DEKOFEN 25MG`, `RARPEZIT-600`).
+- **Extracción antes de paréntesis**: En casos donde los nombres incluían información del laboratorio entre paréntesis (ej.`VIRO-GIP JBE GIPE Y TOS 120 ML ( VIJOSA)`), se extrajo solo la parte relevante previa al paréntesis.
+
+### 🧾 Ejemplos del resultado:
+
+_Antes de la limpieza_
+
+![image](https://github.com/user-attachments/assets/4ffc39e5-329d-4282-8962-7e491b8213e2)
+
+_Después de la limpieza_
+
+![image](https://github.com/user-attachments/assets/594973f1-1c85-4bb1-83b5-352e3ca55bc0)
+
+Estos pasos permitieron estructurar adecuadamente los datos, facilitando su análisis posterior y reduciendo significativamente los errores de interpretación.
+
 * **Power BI Desktop** fue la herramienta empleada para la carga, modelado y visualización de datos.
 
 * Se crearon medidas DAX para KPIs como:
