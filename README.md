@@ -9,6 +9,7 @@ _Vista de la Pantalla Resumen_
 
 Este proyecto corresponde a la evaluación final del curso de Inteligencia de Negocios con Power BI. Se centra en el análisis de datos del sector retail de la empresa Global Market. El objetivo fue desarrollar un dashboard visualmente atractivo y funcional para la alta dirección, permitiendo evaluar ventas, desempeño por producto, cliente y vendedor, así como identificar oportunidades de mejora en la estrategia comercial.
 
+Puedes acceder al dashboard online en este [enlace](https://app.powerbi.com/view?r=eyJrIjoiZjM3YTcwYzItYWFkYy00NzU0LTliMWItNzE5ZjNiNDQyZjEzIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9&pageName=2a594790742e802d06a0)
 
 ## 🗃️ Data Structure
 
